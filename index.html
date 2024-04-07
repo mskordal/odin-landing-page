@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
 	<title>An Awesome Website</title>
 </head>
 <body>
@@ -10,9 +11,9 @@
 		<div class="header-top">
 			<img class="logo" src="img/logo.png" alt="Emmanouil Skordalakis">
 			<ul>
-				<li>Petitions</li>
-				<li>Encyclopedia</li>
-				<li>About Us</li>
+				<li><a href="">Petitions</a></li>
+				<li><a href="">Encyclopedia</a></li>
+				<li><a href="">About Us</a></li>
 			</ul>
 		</div>
 		<div class="header-bot">
@@ -29,25 +30,27 @@
 	</div>
 	<div class="collection">
 		<h2>A collection of underwater pictures</h2>
-		<div class="img-card">
-			<img src="img/coral-fish.jpg" alt="Fish swimming around a coral reef">
-			<p>A school of fish swimming around a coral reef.</p>
-		</div>
-		<div class="img-card">
-			<img src="img/jelly.jpg" alt="Beautiful jellyfish minding their business">
-			<p>Beautiful jellyfish minding their own business.</p>
-		</div>
-		<div class="img-card">
-			<img src="img/coral2.jpg" alt="More coral reefs for your eyes only">
-			<p>Some kind of fungus adding to the abundance of the ocean.</p>
-		</div>
-		<div class="img-card">
-			<img src="img/nemo.jpg" alt="Oh look, I found nemo!!!">
-			<p>A clownfish swimming through some kind of underwater glowing plant.</p>
+		<div class="img-cards">
+			<div class="img-card">
+				<img src="img/coral-fish.jpg" alt="Fish swimming around a coral reef">
+				<p>A school of fish swimming around a coral reef.</p>
+			</div>
+			<div class="img-card">
+				<img src="img/jelly.jpg" alt="Beautiful jellyfish minding their business">
+				<p>Beautiful jellyfish minding their own business.</p>
+			</div>
+			<div class="img-card">
+				<img src="img/coral2.jpg" alt="More coral reefs for your eyes only">
+				<p>Some kind of fungus adding to the abundance of the ocean.</p>
+			</div>
+			<div class="img-card">
+				<img src="img/nemo.jpg" alt="Oh look, I found nemo!!!">
+				<p>A clownfish swimming through some kind of underwater glowing plant.</p>
+			</div>
 		</div>
 	</div>
 	<div class="paragraph">
-		<p>
+		<p class="quote">
 			It seems to me that the natural world is the greatest source of
 			excitement; the greatest source of visual beauty, the greatest
 			source of intellectual interest. It is the greatest source of so
@@ -56,14 +59,16 @@
 			and trying to understand it We need to learn how to work with nature
 			rather than against it
 		</p>
-		<p>-David Attenborough</p>
+		<p class="mention">-David Attenborough</p>
 	</div>
 	<div class="sign-up">
-		<div class="sign-up-left">
-			<h3>Call to action! It's time!</h3>
-			<p>Sign up to help preserve our beautiful oceans by clicking that button over there!</p>
+		<div class="sign-up-in">
+			<div class="sign-up-in-left">
+				<h3>Call to action! It's time!</h3>
+				<p>Sign up to help preserve our beautiful oceans by clicking that button over there!</p>
+			</div>
+			<button>Sign up</button>
 		</div>
-		<button>Sign up</button>
 	</div>
 	<div class="footer">Copyright &copy The Odin Project 2021</div>
 </body>
